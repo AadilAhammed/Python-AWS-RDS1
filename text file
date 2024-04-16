@@ -1,0 +1,7 @@
+ line 26 
+self.conn = psycopg2.connect(user="postgres",password="project1rdsdb",host="project1rdsdb.cnuimswkmwty.us-east-1.rds.amazonaws.com",port=5432,dbname="Project1rdsdb")
+line 38 
+psycopg2.connect(user="postgres",password="project1rdsdb",host="project1rdsdb.cnuimswkmwty.us-east-1.rds.amazonaws.com",port=5432,dbname="Project1rdsdb")
+line 69
+sql_query = """SELECT * from restaurant"""
+
